@@ -17,8 +17,8 @@ function destructivelyRemoveLastKitten() {
   return kittens.pop()
 }
 
-destructivelyRemoveLastKitten()
+var kittens = ['Milo', 'Otis', 'Garfield']
 
-function destructivelyRemoveLastKitten() {
+function destructivelyRemoveFirstKitten() {
   return kittens.pop()
 }
